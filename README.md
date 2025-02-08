@@ -36,6 +36,8 @@ After you are done. just click **"commit chages"** to apply. Give a minute or so
 
 ![GitHub Use Template](/assets/readme/main-page.png)
 
+<br>
+
 - **External Links**: link your external accounts (linkedin, github, stackoverflow, medium, etc)
 ![GitHub Use Template](/assets/readme/external-link.png) 
 Only the icons for the accounts that you enter will appear.
@@ -96,13 +98,13 @@ For each project, you need to create a markdown file within _projects folder. I 
 #### Creating a markdown file in Github
 1. Go to **_project** folder. Make sure you are in the correct level.
 ![GitHub Use Template](/assets/readme/go-to-project-directory.png) 
-2. In the right side of the screen, click add file - create new file
+2. In the right side of the screen, click add file - create new file.  
 ![GitHub Use Template](/assets/readme/create-new-file.png) 
-3. in the available field, enter the name of the folder: **{your-project-name}** then hit "/". This will create a folder for the project 
+3. in the available field, enter the name of the folder: **{your-project-name}** then hit "/". This will create a folder for the project.   
 ![GitHub Use Template](/assets/readme/enter-folder-name.png) 
-4. create a markdown file by entering index.md. 
+4. create a markdown file by entering index.md.   
 ![GitHub Use Template](/assets/readme/index-md.png) 
-4. In the text field paste the below "front-matter" template and fill out the title, description, skills, and name of the main project image that you want to use. This is the summary of the project that will be used to display the project in the main page.
+5. In the text field paste the below "front-matter" template and fill out the title, description, skills, and name of the main project image that you want to use. This is the summary of the project that will be used to display the project in the main page.  
 
     ```md
       ---
@@ -115,12 +117,16 @@ For each project, you need to create a markdown file within _projects folder. I 
       main-image: /project.webp 
       ---
     ```
-5. then click **Submit changes** to create the file.
-6. Upload your image in the same folder by clicking **Add file - upload files**.
+6. then click **Submit changes** to create the file.
+7. Upload your image in the same folder by clicking **Add file - upload files**.
+  
 ![GitHub Use Template](/assets/readme/create-new-file.png) 
-7. Drag your image file, then click **commit changes**. 
+
+8. Drag your image file, then click **commit changes**.
+    
 ![GitHub Use Template](/assets/readme/upload-files.png) 
-8. Allow a minute or so for the build. It will create a project section that looks like this below.
+
+9. Allow a minute or so for the build. It will create a project section that looks like this below.
 ![GitHub Use Template](/assets/readme/project-section.png) 
-9. If you want to add addtional details, you can go back to the index.md file and add more details below the front matter. It will be helpful if you become familiarized with markdown syntax. If you are interested in learning, see [markdown guide](https://www.markdownguide.org/cheat-sheet/).
-10. I set up a couple styling to allow you to embed multiple images and video easily and become responsive for mobile view. See the demo project. You can also add code blocks, blockquote, and tables. 
+10. If you want to add addtional details, you can go back to the index.md file and add more details below the front matter. It will be helpful if you become familiarized with markdown syntax. If you are interested in learning, see [markdown guide](https://www.markdownguide.org/cheat-sheet/).
+11. I set up a couple styling to allow you to embed multiple images and video easily and become responsive for mobile view. See the demo project. You can also add code blocks, blockquote, and tables. 
