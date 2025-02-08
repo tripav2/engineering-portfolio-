@@ -215,9 +215,9 @@ nav .mobile-nav {
     color: var(--link-color);
 }
 
-.hero-section .text .links a:hover {
+.hero-section .text .links a:hover,
+.hero-section .text .links a:hover span {
     color: var(--text-color);
-    border: 2px solid var(--text-color);
 }
 
 .hero-section .headshot {
