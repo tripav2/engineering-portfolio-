@@ -18,7 +18,7 @@ Simple and modern portfolio template for engineers. Host your portfolio for free
 
    ![GitHub Use Template](/assets/readme/github-name-repository.png)
 4. Click "Create repository"
-5. **That's it!** Now, you have a portfolio webiste @ [your id].github.io
+5. **That's it!** Now, you have a portfolio webiste @ [your id].github.io. You may have to wait for up to 1 minute for github to finish building
 
 ## Set up Your Portfolio
 You only need to edit two files. 
