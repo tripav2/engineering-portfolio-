@@ -129,4 +129,4 @@ For each project, you need to create a markdown file within _projects folder. I 
 9. Allow a minute or so for the build. It will create a project section that looks like this below.
 ![GitHub Use Template](/assets/readme/project-section.png) 
 10. If you want to add addtional details, you can go back to the index.md file and add more details below the front matter. It will be helpful if you become familiarized with markdown syntax. If you are interested in learning, see [markdown guide](https://www.markdownguide.org/cheat-sheet/).
-11. I set up a couple styling to allow you to embed multiple images and video easily and become responsive for mobile view. See the demo project. You can also add code blocks, blockquote, and tables. 
+11. I set up a couple styling to allow you to embed multiple images and video easily and become responsive for mobile view. See the [demo](leea12.github.io) project. You can also add code blocks, blockquote, and tables. 
