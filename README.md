@@ -72,13 +72,13 @@ Only the icons for the accounts that you enter will appear.
           - PolyJet Printing
           - Vacuum Casting
     ```
-  - **Contact Form**: you can set up the contact form to send the response to your email using [formspree](https://formspree.io/). You just need to sign up and create a new form. Then, add the 8-digit endpoint key!
+- **Contact Form**: you can set up the contact form to send the response to your email using [formspree](https://formspree.io/). You just need to sign up and create a new form. Then, add the 8-digit endpoint key!
  
-    ![formspreeimage](/assets/readme/formspree.png)
+  ![formspreeimage](/assets/readme/formspree.png)
 
-    ```yaml
-    formspree-key:   https://formspree.io/f/{8-digit key}
-    ```
+  ```yaml
+  formspree-key:   https://formspree.io/f/{8-digit key}
+  ```
 
 - **(optional)** you chan change your color theme by inputting color hex code for a few variables. Feel free to be creative!
   ```yaml
