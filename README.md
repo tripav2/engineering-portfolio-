@@ -1,5 +1,7 @@
 # Free to Engineer Portfolio Template 
-Simple and modern portfolio template for engineers. Host your portfolio for free in as little as **15 minutes**! Check out the **demo [here](https://leea12.github.io/)**
+With the growing emphasis on practical skills in hiring for engineers, more companies are looking at portfolios alongside traditional resumes when evaluating engineers including in mechanical, electrical, and data science. A well-crafted portfolio can showcase your projects, technical abilities, and problem-solving approach in ways that resumes alone cannot.However, creating and hosting a professional portfolio often requires significant time investment and ongoing hosting costs. This can be a barrier, especially for early-career developers and job seekers. That's why I've created this free portfolio template that you can host on GitHub Pages at no cost. Whether you're actively job hunting or want to maintain a professional online presence, this template gives you a polished portfolio without the usual time and cost barriers.
+
+Host your portfolio for free in as little as **15 minutes**! Check out the **demo [here](https://leea12.github.io/)**. I hope this helps!
 
 ## Getting Started:
 
