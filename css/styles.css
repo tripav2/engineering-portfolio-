@@ -847,7 +847,8 @@ footer p {
         display: none;
     }
 
-    
+    .project-grid-section .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     
     /*SECTION 4:Contact */
     .contact-section .group{
