@@ -849,7 +849,8 @@ footer p {
 
     .project-grid-section .grid-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    
+    }
+  
     /*SECTION 4:Contact */
     .contact-section .group{
         flex-direction: column;
@@ -914,7 +915,10 @@ footer p {
         font-size: 13px;
         padding: 5px;
     }
-
+   .hero-section .headshot img{
+        width: 275px;
+        justify-content: center
+    }
     
     /*SECTION 3:Skills */
     .skills-section {
