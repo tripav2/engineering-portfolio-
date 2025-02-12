@@ -114,18 +114,18 @@ For each project, you need to create a markdown file within _projects folder. I 
 ![GitHub Use Template](/assets/readme/enter-folder-name.png) 
 4. create a markdown file by entering index.md.   
 ![GitHub Use Template](/assets/readme/index-md.png) 
-5. In the text field paste the below "front-matter" template and fill out the title, description, skills, and name of the main project image that you want to use. This is the summary of the project that will be used to display the project in the main page.  
+5. In the text field paste the below "front-matter" template and fill out the title, description, skills, and name of the main project image that you want to use. This is the summary of the project that will be used to display the project in the main page. **Be careful** not to leave any space before the front matter deliminators "---". It causes syntax error, and  your page will not be built.
 
     ```md
-      ---
-      layout: post
-      title: project title
-      description:  short description of the project
-      skills: 
-        - skill 1
-        - skill 2
-      main-image: /project.webp 
-      ---
+    ---
+    layout: post
+    title: project title
+    description:  short description of the project
+    skills: 
+    - skill 1
+    - skill 2
+    main-image: /project.webp 
+    ---
     ```
 6. then click **Submit changes** to create the file.
 7. Upload your image in the same folder by clicking **Add file - upload files**.
