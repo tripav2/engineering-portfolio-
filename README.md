@@ -16,7 +16,7 @@ Host your portfolio for free in as little as **15 minutes**! Check out the **dem
 - [Adding Projects](#adding-projects)
   - [Creating a Markdown File in GitHub](#creating-a-markdown-file-in-github)
 
-### Understanding Markdown for Your Project
+### Understanding Markdown for Your Project Page
 - [YAML Frontmatter](#yaml-frontmatter)
 - [Adding Contents](#adding-contents)
   - [Section Title](#section-title)
@@ -171,7 +171,7 @@ For each project, you need to create a markdown file within _projects folder. I 
 9. Allow a minute or so for the build. It will create a project section that looks like this below.
 ![GitHub Use Template](/assets/readme/project-section.png) 
 
-### Understanding markdown file your project
+### Understanding markdown file your project page
 If you want to add addtional details, you can go back to the index.md file and add more contents below the front matter. It will be helpful if you become familiarized with markdown syntax. If you are interested in learning, see [markdown guide](https://www.markdownguide.org/cheat-sheet/). I set up a couple styling to allow you to embed multiple images and video easily and become responsive for mobile view. See the [demo](https://leea12.github.io/)) project. You can also add code blocks, blockquote, and tables. 
 
 #### YAML frontmatter
