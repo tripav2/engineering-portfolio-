@@ -233,6 +233,9 @@ Add youtube video using the following format
 ```markdown
 {% include youtube-video.html id="{11-digit id}" autoplay= "false"%}
 ```
+This is where you get the 11-digit id  
+
+![image](https://github.com/user-attachments/assets/4ffc509a-9e22-40bc-b503-421443ab2b66)
 
 #### Adding bold text
 add bold text by wrapping with "**"
