@@ -3,6 +3,39 @@ With the growing emphasis on practical skills in hiring for engineers, more comp
 
 Host your portfolio for free in as little as **15 minutes**! Check out the **demo [here](https://leea12.github.io/)**. I hope this helps!
 
+## Table of Contents
+
+### Setting Up Your Page on GitHub (5 min)
+- [Getting Started](#getting-started)
+  - [Setup GitHub Account](#setup-github-account)
+  - [Fork the Template](#fork-the-template)
+
+### Personalizing Your Portfolio (10+ min)
+- [Set Up Your Profile](#set-up-your-profile)
+  - [Open `_config.yml`](#open-_configyml)
+- [Adding Projects](#adding-projects)
+  - [Creating a Markdown File in GitHub](#creating-a-markdown-file-in-github)
+
+### Understanding Markdown for Your Project
+- [YAML Frontmatter](#yaml-frontmatter)
+- [Adding Contents](#adding-contents)
+  - [Section Title](#section-title)
+  - [Sub-Section Title](#sub-section-title)
+  - [Adding a New Line](#adding-a-new-line)
+  - [Adding a Horizontal Line](#adding-a-horizontal-line)
+  - [Embedding Images](#embedding-images)
+  - [Embedding YouTube Video](#embedding-youtube-video)
+  - [Adding Bold Text](#adding-bold-text)
+  - [Adding Italic Text](#adding-italic-text)
+  - [Adding Ordered List](#adding-ordered-list)
+  - [Adding Unordered List](#adding-unordered-list)
+  - [Adding Code Block](#adding-code-block)
+  - [Adding External Links](#adding-external-links)
+  - [Adding Block Quote](#adding-block-quote)
+  - [Adding Table](#adding-table)
+
+
+
 ## Getting Started:
 
 ### Setup GitHub Account
@@ -24,10 +57,9 @@ Host your portfolio for free in as little as **15 minutes**! Check out the **dem
 6. **[Good to know]** you can see the status of your website by going to settings - pages.
    ![GitHub Use Template](/assets/readme/github-pages.png)
 
-## Set up Your Portfolio
-You only need to edit two files. 
+## Set up Your profile
 
-### 1. Setup your page in `_config.yml`
+### Open `_config.yml`
 This file contains the configuration settings for your site. Here's what you might want to change: 
 After you are done. just click **"commit chages"** to apply. Give a minute or so for github to build your website.
 
@@ -102,7 +134,7 @@ Only the icons for the accounts that you enter will appear.
   - **cotton-candy**
   ![GitHub Use Template](/assets/readme/cotton-candy.png) 
 
-### 2. [project name].markdown
+## Adding projects
 For each project, you need to create a markdown file within _projects folder. I recommend created a folder for each project so that it is easy to organize image files that you may want to add. To get started, follow the below steps.
 
 #### Creating a markdown file in Github
@@ -138,5 +170,139 @@ For each project, you need to create a markdown file within _projects folder. I 
 
 9. Allow a minute or so for the build. It will create a project section that looks like this below.
 ![GitHub Use Template](/assets/readme/project-section.png) 
-10. If you want to add addtional details, you can go back to the index.md file and add more contents below the front matter. It will be helpful if you become familiarized with markdown syntax. If you are interested in learning, see [markdown guide](https://www.markdownguide.org/cheat-sheet/).
-11. I set up a couple styling to allow you to embed multiple images and video easily and become responsive for mobile view. See the [demo](https://leea12.github.io/)) project. You can also add code blocks, blockquote, and tables. 
+
+### Understanding markdown file your project
+If you want to add addtional details, you can go back to the index.md file and add more contents below the front matter. It will be helpful if you become familiarized with markdown syntax. If you are interested in learning, see [markdown guide](https://www.markdownguide.org/cheat-sheet/). I set up a couple styling to allow you to embed multiple images and video easily and become responsive for mobile view. See the [demo](https://leea12.github.io/)) project. You can also add code blocks, blockquote, and tables. 
+
+#### YAML frontmatter
+YAML frontmatter gets pulled by the site to fill contents for the summary section of your project which gets displayed in the main index page and top section of the project page. 
+
+```markdown
+---
+layout: post
+title: Super Heavy Booster Catch (Demo Only)
+description:  (I have never been employed by / affiliated with SpaceX. This is for demo use only) 
+    Developing the Super Heavy booster catch project involves designing a robust launch tower with "chopstick" arms, advanced control systems for precise booster alignment, and integrating sophisticated software for real-time trajectory adjustments and structural engineering to handle immense forces.
+skills: 
+  - Structural analysis
+  - Aerodynamic design
+  - Propulsion system integration
+  - Control Algorithem 
+  - Welding
+  - Metal forming
+  - Thermal simulation
+
+main-image: /project2.jpg
+---
+```
+#### Adding contents
+use "## (title)" as the title of each section
+## Section title
+```markdown
+## section title
+```
+
+### sub-section title
+Use this to have subsection if needed
+```markdown
+### sub-section title
+```
+
+#### Adding a new line
+you can add 2 spaces "  " or <br> to start a new line
+```markdown
+<br>
+```
+
+#### Adding a horizontal line
+you can add a horizontal line to separate fields by using "---"
+```markdown
+---
+```
+
+#### Embedding images 
+Add images using the following format. You can put multiple images in a single row by putting in multiple entries for "images=". You can also overide the size of the all images in the single row setting the height in pixel.
+{% include image-gallery.html images="{image1 path}, {image2 path}" height="400"%}
+
+```markdown
+{% include image-gallery.html images="project2.jpg" height="400" %}
+```
+#### Embedding youtube video
+Add youtube video using the following format
+{% include youtube-video.html id="{11-digit id}" autoplay= "false"%}
+```markdown
+{% include youtube-video.html id="{11-digit id}" autoplay= "false"%}
+```
+
+#### Adding bold text
+add bold text by wrapping with "**"
+```markdown
+this is how you input **bold text**
+```
+
+#### Adding italic text
+add italic text by wrapping with "*"
+```markdown
+Italicized text is the *cat's meow*.
+```
+
+#### Adding ordered list
+```markdown
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+```
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+#### Adding unordered list
+```markdown
+- First item
+- Second item
+- Third item
+- Fourth item
+```
+- First item
+- Second item
+- Third item
+- Fourth item
+
+#### Adding code block
+To add a code block wrap your script with ```. Adding the language after ''' will activate sytax highlighting.
+![image](https://github.com/user-attachments/assets/8b8a6c6a-1599-4b03-bcc3-b087bc0f5c49)
+
+```python
+def start()
+  print("time to start!")
+```
+
+#### Adding external links
+to add extra links, wrap the text in "[ ]" then add the add the hyperlink wrappted by "( )"
+```markdown
+[Wikipedia](https://en.wikipedia.org)
+```
+#### Adding block quote
+To add a blockquote add ">" at the beginning of the text
+```markdown
+> A blockquote would look great if you need to highlight something
+```
+> A blockquote would look great if you need to highlight something
+
+#### Adding table
+To add a table, use the following format
+```markdown
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1, Col 1 | Row 1, Col 2 |
+| Row 2, Col 1 | Row 2, Col 2 |
+```
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1, Col 1 | Row 1, Col 2 |
+| Row 2, Col 1 | Row 2, Col 2 |
+
+make sure to leave aline betwen the table and the header
+
