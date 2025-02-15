@@ -5,18 +5,18 @@ Host your portfolio for free in as little as **15 minutes**! Check out the **dem
 
 ## Table of Contents
 
-### Setting Up Your Page on GitHub (5 min)
+### 1. Setting Up Your Page on GitHub (5 min)
 - [Getting Started](#getting-started)
   - [Setup GitHub Account](#setup-github-account)
   - [Fork the Template](#fork-the-template)
 
-### Personalizing Your Portfolio (10+ min)
+### 2. Personalizing Your Portfolio (10+ min)
 - [Set Up Your Profile](#set-up-your-profile)
   - [Open `_config.yml`](#open-_configyml)
 - [Adding Projects](#adding-projects)
   - [Creating a Markdown File in GitHub](#creating-a-markdown-file-in-github)
 
-### Understanding Markdown for Your Project Page
+### 3. Understanding Markdown for Your Project Page
 - [YAML Frontmatter](#yaml-frontmatter)
 - [Adding Contents](#adding-contents)
   - [Section Title](#section-title)
