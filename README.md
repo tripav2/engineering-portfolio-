@@ -249,6 +249,13 @@ add italic text by wrapping with "*"
 Italicized text is the *cat's meow*.
 ```
 
+### adding underline
+underline is not supported in markdown, but you can still use html within markdown
+```html
+<u>This text is underlined</u>
+```
+<u>This text is underlined</u>
+
 #### Adding ordered list
 ```markdown
 1. First item
@@ -307,5 +314,5 @@ To add a table, use the following format
 | Row 1, Col 1 | Row 1, Col 2 |
 | Row 2, Col 1 | Row 2, Col 2 |
 
-make sure to leave aline betwen the table and the header
+** make sure to leave a line betwen the table and the header
 
