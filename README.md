@@ -251,10 +251,9 @@ Italicized text is the *cat's meow*.
 
 ### adding underline
 underline is not supported in markdown, but you can still use html within markdown
-```html
-<u>This text is underlined</u>
 ```
 <u>This text is underlined</u>
+```
 
 #### Adding ordered list
 ```markdown
