@@ -1,6 +1,10 @@
 # Free to Engineer Portfolio Template 
-With the growing emphasis on practical skills in hiring for engineers, more companies are looking at portfolios alongside traditional resumes when evaluating engineers including in mechanical, electrical, and data science. A well-crafted portfolio can showcase your projects, technical abilities, and problem-solving approach in ways that resumes alone cannot. However, creating and hosting a professional portfolio often requires significant time investment and ongoing hosting costs. This can be a barrier, especially for early-career developers and job seekers which is why I've created this free portfolio template. Spend less time on your portfolio more time innovating and engineering things!  
+With the growing emphasis on practical skills in hiring for engineers, more companies are looking at portfolios alongside traditional resumes when evaluating engineers including in mechanical, electrical, and data science. A well-crafted portfolio can showcase your projects, technical abilities, and problem-solving approach in ways that resumes alone cannot. This is a free portfolio template. You can host your site for free in **15 minutes**! Check out the **demo [here](https://leea12.github.io/)**.
 
+## Need help with ideas for industry relevant projects or 1:1 mentorship with experienced engineers?
+check out [LowInertia.com](https://www.lowinertia.com/)
+
+## Save time
 Host your portfolio for free in as little as **15 minutes**! Check out the **demo [here](https://leea12.github.io/)**. I hope this helps! Please star the repository. It will help this to get more visibility to more people
 
 ## Table of Contents
