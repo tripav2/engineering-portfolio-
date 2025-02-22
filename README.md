@@ -46,7 +46,7 @@ With the growing emphasis on practical skills, more companies are looking at por
 ### Fork the Template
 
 1. **Navigate to FreeToEngineer Repository**: Go to the repository where this portfolio template is [hosted](https://github.com/leea12/freeToEngineer)
-2. **Fork the template**: Click the "Use this template" button at the top right of the page. Then, choose create a new repository. This creates a copy under your GitHub account.
+2. **Fork the template**: Click the "Use this template" button at the top right of the page. Then, choose create a new repository. This creates a copy under your GitHub account. If you can also click on the "star", it will help the template to get visibility to many others!
 
    ![GitHub Use Template](/assets/readme/github-use-template.png)
 
