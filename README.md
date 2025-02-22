@@ -3,8 +3,11 @@ With the growing emphasis on practical skills in hiring for engineers, more comp
 
 If you want to work on industry relevant projects along with 1:1 mentorship with experienced engineers to grow your skills and receive continuous feedbacks, please check out **[lowinertia.com](https://www.lowinertia.com/)**  
 <br>
-[<img src="https://github.com/user-attachments/assets/b8b84902-a670-43ac-8a57-359ac8bc371e" width="400"  alt="Description">](https://www.lowinertia.com/)
-
+<img 
+  src="https://github.com/user-attachments/assets/b8b84902-a670-43ac-8a57-359ac8bc371e" 
+  alt="Description" 
+  style="width: 750px; max-width: 90%; height: auto;"
+/>
 
 ## Table of Contents
 
