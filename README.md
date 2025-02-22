@@ -6,7 +6,7 @@ If you want to work on industry relevant projects along with 1:1 mentorship with
 <img 
   src="https://github.com/user-attachments/assets/b8b84902-a670-43ac-8a57-359ac8bc371e" 
   alt="Description" 
-  style="width: 750px; max-width: 90%; height: auto;"
+  style="width: 600px; max-width: 90%; height: auto;"
 />
 
 ## Table of Contents
