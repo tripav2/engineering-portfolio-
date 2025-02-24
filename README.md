@@ -4,6 +4,12 @@ With the growing emphasis on practical skills, more companies are looking at por
 ![image](https://github.com/user-attachments/assets/f80d6222-408c-4a8f-960a-fb13a1a0cd12)
 
 
+## If you are currently looking for a job
+Visit **[lowinertia.com](www.lowinertialcom)** I am adding contents that I think would be helpful for those who either looking for preparing for internship or entry position application.
+
+
+
+
 ## Table of Contents
 
 ### 1. Setting Up Your Page on GitHub (5 min)
