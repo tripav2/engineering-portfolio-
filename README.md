@@ -5,7 +5,7 @@ With the growing emphasis on practical skills, more companies are looking at por
 
 
 ## If you are currently looking for a job
-Visit **[lowinertia.com](https://leea12.github.io/)** I am adding contents that I think would be helpful for those who either looking for preparing for internship or entry position application.
+Visit **[lowinertia.com](https://lowinertia.com/)** I am adding contents that I think would be helpful for those who either looking for preparing for internship or entry position application.
 
 
 
