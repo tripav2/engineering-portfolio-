@@ -4,7 +4,6 @@ layout: wrapper
 
 <div class="post-view">
     <div class="summary">
-        
        
         {% assign folder_path = page.path | split: "/" | slice: 0, 2 | join: "/" %}
         {% assign image_path = "/" | append: folder_path | append: page['main-image'] %}       
@@ -18,18 +17,27 @@ layout: wrapper
             <h2>Project Overview</h2>
             <p>{{ page.description }}</p>
         </div>
+
         <div class="skills-card">
             <h2>Skills Used</h2> 
             <div class="skills-list">
                 {% for skill in page.skills %}
-                <span class="skill">{{ skill }}</span>    
+                    <span class="skill">{{ skill }}</span>    
                 {% endfor %}
             </div>
         </div>
+
+        {% if page.github-link %}
+        <div style="text-align: center; margin-top: 20px;">
+            <a href="{{ page.github-link }}" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #24292e; color: #ffffff; border-radius: 8px; text-decoration: none; font-weight: bold;">
+                View on GitHub
+            </a>
+        </div>
+        {% endif %}
+
     </div>
-      
+
     <div class="content">
         {{content}}
     </div>
 </div>
-
